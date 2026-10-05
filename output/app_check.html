@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Customs — App Check</title>
+  <style>
+    :root{color:#142b49;background:#f5f3ef;font-family:Arial,sans-serif}body{max-width:1050px;margin:0 auto;padding:40px 24px 70px}h1,h2{font-family:Georgia,serif}h1{font-size:42px;margin-bottom:8px}h2{font-size:25px;border-top:1px solid #cbd1d2;padding-top:28px;margin-top:42px}.intro{color:#536276;line-height:1.6;max-width:760px}.check{background:#fff;padding:20px 20px 24px;box-shadow:0 8px 24px #142b4912}.check img{display:block;width:100%;height:auto;border:1px solid #d9ddde}.caption{color:#536276;font-size:15px;line-height:1.55;margin:16px 0 0}.tag{color:#bd6f3b;font-size:11px;font-weight:bold;letter-spacing:1.5px;text-transform:uppercase}
+  </style>
+</head>
+<body>
+  <p class="tag">Campus Customs · live app check</p>
+  <h1>Storefront evidence</h1>
+  <p class="intro">Three checks from the running React/Vite site and FastAPI-backed shop. Open this file directly; each screenshot is stored beside it in <code>app_check_images/</code>.</p>
+
+  <h2>1. Chat checks inventory and price</h2>
+  <div class="check">
+    <img src="app_check_images/inventory.png" alt="Campus Customs chat showing the T-shirt price and inventory by size">
+    <p class="caption">The concierge reports the catalogue price ($32.00), total stock (112), and size quantities for the 2025 Yale vs Harvard T-Shirt. These values match the database-backed product and inventory records.</p>
+  </div>
+
+  <h2>2. Category question produces dynamic product cards</h2>
+  <div class="check">
+    <img src="app_check_images/dynamic-cards.png" alt="Campus Customs chat showing hoodie product cards">
+    <p class="caption">After “What hoodies do you have?”, the chat panel renders product cards with real catalogue images, names, prices, and short descriptions. Each card is linked to the existing single-product detail route.</p>
+  </div>
+
+  <h2>3. Problem 9 usability improvement: search and sort</h2>
+  <div class="check">
+    <img src="app_check_images/catalogue-search.png" alt="Campus Customs Products page filtered to hoodies and sorted by price">
+    <p class="caption">The Products page is filtered to “hoodie,” shows the result count, and is sorted from low to high price. This makes a large catalogue easier to scan while preserving the clickable product detail flow.</p>
+  </div>
+</body>
+</html>

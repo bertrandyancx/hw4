@@ -1,0 +1,1 @@
+.name-fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.form-error,.form-success{font-size:12px;line-height:1.4}.form-error{color:#a94f3d}.form-success{color:#2d765b}.card-form button:disabled{opacity:.65;cursor:wait}@media(max-width:800px){.name-fields{grid-template-columns:1fr;gap:0}}

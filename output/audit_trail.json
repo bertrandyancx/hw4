@@ -1,0 +1,9 @@
+[
+  {
+    "time": "2026-10-05T16:19:33.591966+00:00",
+    "tool_name": "search_products",
+    "short_args": "query='hoodies'",
+    "short_result": "matches=6",
+    "stop_reason": null
+  }
+]
